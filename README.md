@@ -37,31 +37,29 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.href
 Type: `String`
-Default value: `',  '`
+Default value: ``
 
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
+A string value that is used to do update href value in base element of html file.
 
 ### Usage Examples
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
+In this example, the default options are used to update href attribute of base element found in html file.
 
 ```js
 grunt.initConfig({
   basehref: {
-    href: '',
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
+    default_options: {
+      options: {
+          href: '<value>'
+      },
+      files: {
+        '<dest file>': '<src file>'
+      }
+    }
+  }
 });
 ```
 
