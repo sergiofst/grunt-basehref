@@ -32,18 +32,10 @@ module.exports = function(grunt) {
     basehref: {
       default_options: {
         options: {
+            href: '/url_destino'
         },
         files: {
-          'tmp/default_options': ['test/fixtures/testing', 'test/fixtures/123']
-        }
-      },
-      custom_options: {
-        options: {
-          separator: ': ',
-          punctuation: ' !!!'
-        },
-        files: {
-          'tmp/custom_options': ['test/fixtures/testing', 'test/fixtures/123']
+          'tmp/testing.html': 'test/fixtures/testing.html'
         }
       }
     },
