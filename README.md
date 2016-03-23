@@ -69,12 +69,14 @@ In this example, href is used to change href value to custom url.
 ```js
 grunt.initConfig({
   basehref: {
-    options: {
-      href:'/url_destino'
-    },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    default_options: {
+      options: {
+          href: '/url_dest'
+      },
+      files: {
+        'tmp/testing.html': 'test/fixtures/testing.html'
+      }
+    }
   },
 });
 ```
