@@ -5,19 +5,19 @@
   "homepage": "https://github.com/sergioserrano/grunt-basehref",
   "author": {
     "name": "Sergio Serrano",
-    "email": "sergio.serrano_hitss@banorte.com"
+    "email": "sergiofst@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sergioserrano/grunt-basehref.git"
+    "url": "https://github.com/sergiofst/grunt-basehref.git"
   },
   "bugs": {
-    "url": "https://github.com/sergioserrano/grunt-basehref/issues"
+    "url": "https://github.com/sergiofst/grunt-basehref/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/sergioserrano/grunt-basehref/blob/master/LICENSE-MIT"
+      "url": "https://github.com/sergiofst/grunt-basehref/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
